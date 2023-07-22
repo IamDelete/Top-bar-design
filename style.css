@@ -1,0 +1,53 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h1 {
+    font-size: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    position: relative;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath15870%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient15871%26quot%3b)'%3e%3c/rect%3e%3ccircle r='26.045' cx='986.36' cy='215.01' fill='url(%26quot%3b%23SvgjsLinearGradient15872%26quot%3b)'%3e%3c/circle%3e%3ccircle r='47.15' cx='276.59' cy='6.49' fill='url(%26quot%3b%23SvgjsLinearGradient15873%26quot%3b)'%3e%3c/circle%3e%3ccircle r='24.725' cx='102.92' cy='272.34' fill='url(%26quot%3b%23SvgjsLinearGradient15874%26quot%3b)'%3e%3c/circle%3e%3ccircle r='32.165' cx='87.48' cy='302.14' fill='url(%26quot%3b%23SvgjsLinearGradient15875%26quot%3b)'%3e%3c/circle%3e%3ccircle r='18.285' cx='1249.9' cy='155.08' fill='url(%26quot%3b%23SvgjsLinearGradient15876%26quot%3b)'%3e%3c/circle%3e%3ccircle r='45.455' cx='1333.31' cy='349.27' fill='url(%26quot%3b%23SvgjsLinearGradient15877%26quot%3b)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath15870'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient15871'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='0'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1038.45' y1='162.92' x2='934.27' y2='267.1' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient15872'%3e%3cstop stop-color='rgba(255%2c 255%2c 255%2c 1)' offset='0.76'%3e%3c/stop%3e%3cstop stop-color='rgba(79%2c 68%2c 132%2c 0)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='370.89' y1='-87.81' x2='182.28999999999996' y2='100.78999999999999' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient15873'%3e%3cstop stop-color='rgba(255%2c 255%2c 255%2c 1)' offset='0.76'%3e%3c/stop%3e%3cstop stop-color='rgba(79%2c 68%2c 132%2c 0)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='53.47' y1='272.34' x2='152.37' y2='272.34' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient15874'%3e%3cstop stop-color='rgba(255%2c 255%2c 255%2c 1)' offset='0.5'%3e%3c/stop%3e%3cstop stop-color='rgba(66%2c 68%2c 136%2c 0)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='23.150000000000006' y1='302.14' x2='151.81' y2='302.14' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient15875'%3e%3cstop stop-color='rgba(255%2c 255%2c 255%2c 1)' offset='0.46'%3e%3c/stop%3e%3cstop stop-color='rgba(72%2c 76%2c 151%2c 0)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1286.4700000000003' y1='118.51000000000002' x2='1213.3300000000002' y2='191.65000000000003' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient15876'%3e%3cstop stop-color='rgba(255%2c 255%2c 255%2c 1)' offset='0.76'%3e%3c/stop%3e%3cstop stop-color='rgba(79%2c 68%2c 132%2c 0)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1242.3999999999999' y1='258.36' x2='1424.2199999999998' y2='440.18' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient15877'%3e%3cstop stop-color='rgba(255%2c 255%2c 255%2c 1)' offset='0.49'%3e%3c/stop%3e%3cstop stop-color='rgba(126%2c 98%2c 134%2c 0)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    color: white;
+    font-family: monospace;
+    font-size: 2.5vh;
+
+    height: 2.5vh;
+    overflow: hidden;
+    transition: height 1s ease;
+
+
+}
+
+.topbar:hover {
+    height: 10vh;
+    /* Set the desired height for the drop-down */
+}
+
+.content {
+    padding: 10px;
+    margin-top: 3.5vh;
+    margin-left: 1vw;
+
+}
+
+.dropdownbar {
+    color: rgb(170, 170, 170);
+    padding: 2vw;
+    transition: 1.5s ease;
+    text-decoration: none;
+}
+
+.dropdownbar:hover {
+    color: black;
+    background-color: aliceblue;
+    border-radius: 350px;
+}
